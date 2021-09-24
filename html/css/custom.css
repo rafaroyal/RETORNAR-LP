@@ -1,0 +1,97 @@
+/* CSS Personalizados */
+
+header.header-principal {
+	padding-top: 10.5rem;
+	padding-bottom: 6rem;
+	text-align: center;
+	color: #fff;
+	background-image: url("../images/prod-slide-2_red.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+  }
+  header.header-principal .header_principal-subheading {
+	font-size: 1.5rem;
+	font-style: italic;
+	line-height: 1.5rem;
+	margin-bottom: 25px;
+  }
+  header.header-principal .header-principal-heading {
+	font-size: 3.25rem;
+	font-weight: 700;
+	line-height: 3.25rem;
+	margin-bottom: 2rem;
+  }
+
+  header.header-principal .h1-large, header.header-principal .p-large{
+	color: #ffffff;
+	text-transform: uppercase;
+  }
+
+  header strong{
+	font-size: 1.6rem;
+  }
+  .detalhes-1 h2{
+	  text-align: center;
+  }
+
+  #como-funciona{
+	padding-top: 4.5rem;
+  }
+
+  .ganhadores .video-ganhadores{
+	padding: 56.25% 0 0 0;
+    position: relative;
+	margin-bottom: 50px;
+  }
+
+  #a-retornar p{
+	  text-align: justify;
+  }
+
+  #a-retornar h2{
+	  text-align: center;
+  } 
+
+  #duvidas h2{
+	text-align: center;
+} 
+
+.footer .logo-image img {
+    width: 170px;
+    height: 70px;
+}
+
+#como-concorrer {
+	padding-top: 10.5rem;
+	padding-bottom: 6rem;
+	text-align: center;
+	color: #fff;
+	background-image: url("../images/prod-slide-2_red.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+  }
+/*************************/
+/*     Media Queries     */
+/*************************/	
+@media (min-width: 768px) {
+	header.header-principal {
+	  padding-top: 17rem;
+	  padding-bottom: 12.5rem;
+	}
+	header.header-principal .header-principal-subheading {
+	  font-size: 2.25rem;
+	  font-style: italic;
+	  line-height: 2.25rem;
+	  margin-bottom: 2rem;
+	}
+	header.header-principal .header-principal-heading {
+	  font-size: 4.5rem;
+	  font-weight: 700;
+	  line-height: 4.5rem;
+	  margin-bottom: 4rem;
+	}
+  }
